@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+}
+body{
+    background:url(bg.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background:transparent;
+    width: 460px;
+    border: 2px solid rgba(255, 225, 225, 0.3);
+    color: white;
+    backdrop-filter: blur(2px);
+    padding: 30px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.text, .key, .encrypted{
+    width: 100%;
+    height: 50px;
+}
+/* .text, .key, .encrypted{
+    width: 100%;
+    height: 50px;
+    margin: 105x;
+} */
+.text input, .key input, .encrypted input{
+    width: 100%;
+    /* height: 100%; */
+    padding: 10px;
+    background: transparent;
+
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white; 
+}
+.text input::placeholder, .key input::placeholder, 
+.encrypted input::placeholder{
+    color: white;
+}
+.btn{
+    margin: 8px 0px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;  
+}
+.decryptBtn{
+    margin: 10px 10px;
+    padding: 10px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;  
+.solInput{
+    margin: 10px;
+    padding: 50px;
+    font-size: 100px;
+}
+
+
+
+    /* color: #fff;
+    border: none;
+    font-size: 17px;
+    background: transparent;
+    font-weight: 600;
+    padding: 0 10px; */
+  }
+ a:hover{
+    text-decoration: underline;
+  }
+.toDecrypt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+.encrypted{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 33px;
+    }
+    .container{
+        width: 380px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
