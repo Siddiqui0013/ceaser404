@@ -131,6 +131,7 @@ Dbtn.addEventListener("click", () => {
 });
 
 function performDecryption(text, key) {
+                let EnString;
                 let CeaserArr = text.split("");
                 let Dkey = Number.parseInt(key);
         
@@ -154,7 +155,8 @@ function performDecryption(text, key) {
                     }
                 });
         
-                const EnString = DeArr.join('');
+                EnString = DeArr.join('');
+                return EnString;
 }
 
 
